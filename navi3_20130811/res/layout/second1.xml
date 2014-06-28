@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff">
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text=" " android:id="@+id/st2"/>
+<Button android:text="@string/A" android:textSize="9pt" android:id="@+id/button1" android:layout_width="wrap_content"
+android:layout_height="wrap_content" android:layout_gravity="center">
+</Button>
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text=" " android:id="@+id/st3"/>
+<Button android:text="@string/B" android:textSize="9pt" android:id="@+id/button2" android:layout_width="wrap_content"
+android:layout_height="wrap_content" android:layout_gravity="center">
+</Button>
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text=" " android:id="@+id/st4"/>
+<Button android:text="@string/C" android:textSize="9pt" android:id="@+id/button3" android:layout_width="wrap_content"
+android:layout_height="wrap_content" android:layout_gravity="center">
+</Button>
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text=" " android:id="@+id/st5"/>
+<Button android:text="@string/D" android:textSize="9pt" android:id="@+id/button4" android:layout_width="wrap_content"
+android:layout_height="wrap_content" android:layout_gravity="center">
+</Button>
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text=" " android:id="@+id/st5"/>
+<Button android:text="@string/E" android:textSize="9pt" android:id="@+id/button5" android:layout_width="wrap_content"
+android:layout_height="wrap_content" android:layout_gravity="center">
+</Button>
+</LinearLayout>

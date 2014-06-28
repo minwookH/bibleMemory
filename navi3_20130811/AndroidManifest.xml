@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="hmw.navi"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="7" />
+
+    <application
+        android:icon="@drawable/navi"
+        android:label="@string/app_name" 
+        android:theme="@android:style/Theme.NoTitleBar">
+        <activity
+            android:name=".Navi60Activity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".second1">
+        </activity>
+        <activity android:name=".second2">
+        </activity>
+        <activity android:name=".third_a">
+        </activity>
+        <activity android:name=".third_b">
+        </activity>
+        <activity android:name=".third_c">
+        </activity>
+        <activity android:name=".third_d">
+        </activity>
+        <activity android:name=".third_e">
+        </activity>
+        <activity android:name=".sub">
+        </activity>
+        <activity android:name=".sub_180">
+        </activity>
+        <activity android:name=".b180_third_a">
+        </activity>
+        <activity android:name=".b180_third_b">
+        </activity>
+        <activity android:name=".b180_third_c">
+        </activity>
+        <activity android:name=".b180_third_d">
+        </activity>
+        <activity android:name=".b180_third_e">
+        </activity>
+        <activity android:name=".lllist">
+        </activity>
+        <activity android:name=".bible_list_item">
+        </activity>
+        <activity android:name=".b24a">
+        </activity>
+        <activity android:name=".search">
+        </activity>
+        
+    </application>
+
+</manifest>

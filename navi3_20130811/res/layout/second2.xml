@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff">
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text=" " android:id="@+id/b180_st2"/>
+<Button android:text="@string/b180_1" android:textSize="9pt" android:id="@+id/b180_button1" android:layout_width="wrap_content"
+android:layout_height="wrap_content" android:layout_gravity="center">
+</Button>
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text=" " android:id="@+id/b180_st3"/>
+<Button android:text="@string/b180_2" android:textSize="9pt" android:id="@+id/b180_button2" android:layout_width="wrap_content"
+android:layout_height="wrap_content" android:layout_gravity="center">
+</Button>
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text=" " android:id="@+id/b180_st4"/>
+<Button android:text="@string/b180_3" android:textSize="9pt" android:id="@+id/b180_button3" android:layout_width="wrap_content"
+android:layout_height="wrap_content" android:layout_gravity="center">
+</Button>
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text=" " android:id="@+id/b180_st5"/>
+<Button android:text="@string/b180_4" android:textSize="9pt" android:id="@+id/b180_button4" android:layout_width="wrap_content"
+android:layout_height="wrap_content" android:layout_gravity="center">
+</Button>
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text=" " android:id="@+id/b180_st5"/>
+<Button android:text="@string/b180_5" android:textSize="9pt" android:id="@+id/b180_button5" android:layout_width="wrap_content"
+android:layout_height="wrap_content" android:layout_gravity="center">
+</Button>
+</LinearLayout>

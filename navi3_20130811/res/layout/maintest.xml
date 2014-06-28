@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linear"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    >
+    
+    <TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text=" " android:id="@+id/mainStr1"/>
+    <TextView android:id="@+id/textView1" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge"
+    android:layout_height="wrap_content" android:text="성경암송" android:layout_gravity="center" android:textColor="#000000"
+    android:textSize="40sp"></TextView>
+    <TextView android:id="@+id/textView7" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge"
+    android:layout_height="wrap_content" android:text="[60,180]구절" android:layout_gravity="center" android:textColor="#000000"
+    android:textSize="40sp"></TextView>
+    
+    <TextView android:text=" " android:id="@+id/textView2" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"></TextView>
+    
+    <Button android:text="60구절" android:textSize="11pt" android:id="@+id/MainButton1" android:layout_width="400px"
+	android:layout_height="100px" android:layout_gravity="center"></Button>
+
+	<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text=" " android:id="@+id/mainStr2"/>
+    
+    <Button android:text="180구절" android:textSize="11pt" android:id="@+id/MainButton2" android:layout_width="400px"
+	android:layout_height="100px" android:layout_gravity="center"></Button>
+    <TextView android:text=" " android:id="@+id/textView3" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    <TextView android:text=" " android:id="@+id/textView4" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    <TextView android:text=" " android:id="@+id/textView5" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    <TextView android:text="Create by Wook" android:id="@+id/textView6" android:layout_width="wrap_content"
+    android:layout_height="wrap_content" android:layout_gravity="center" android:textSize="20sp" android:textColor="#778899"></TextView>
+</LinearLayout>

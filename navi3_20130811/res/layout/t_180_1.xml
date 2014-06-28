@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff">
+    
+    <TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text=" " android:id="@+id/b180_t1_st1"/>
+    
+    <TextView android:layout_gravity="center" android:textColor="#000000" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_height="60px" android:textSize="11pt"
+    android:text="@string/b180_1" android:id="@+id/b180_t1_textViewtop" android:layout_width="wrap_content"></TextView>
+    
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text=" " android:id="@+id/b180_t1_st2"/>
+<Button android:text="@string/b180_1_A" android:textSize="9pt" android:id="@+id/b180_t1_button1" android:layout_width="wrap_content"
+android:layout_height="wrap_content" android:layout_gravity="center">
+</Button>
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text=" " android:id="@+id/b180_t1_st3"/>
+<Button android:text="@string/b180_1_B" android:textSize="9pt" android:id="@+id/b180_t1_button2" android:layout_width="wrap_content"
+android:layout_height="wrap_content" android:layout_gravity="center">
+</Button>
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text=" " android:id="@+id/b180_t1_st4"/>
+<Button android:text="@string/b180_1_C" android:textSize="9pt" android:id="@+id/b180_t1_button3" android:layout_width="wrap_content"
+android:layout_height="wrap_content" android:layout_gravity="center">
+</Button>
+
+</LinearLayout>

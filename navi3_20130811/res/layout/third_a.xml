@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linear"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:orientation="vertical" android:padding="10px" android:background="#ffffff">
+    
+    <TextView android:textColor="#000000" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_height="60px" android:textSize="11pt" android:text="@string/A" android:id="@+id/textViewtop" android:layout_width="wrap_content"></TextView>
+    
+<LinearLayout android:id="@+id/linearLayout1" android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_weight="1">
+    <TextView android:textColor="#000000" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_height="wrap_content" android:text="@string/A1" android:id="@+id/textViewA1" android:layout_width="260px"></TextView>
+    <Button android:text="1" android:id="@+id/buttonA1" android:layout_width="100px" android:layout_height="100px" ></Button>
+    <Button android:text="2" android:id="@+id/buttonA2" android:layout_width="100px" android:layout_height="100px"></Button>
+</LinearLayout>
+<LinearLayout android:id="@+id/linearLayoutA" android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_weight="1">
+    <TextView android:textColor="#000000" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_height="wrap_content" android:text="@string/A2" android:id="@+id/textViewA2" android:layout_width="260px"></TextView>
+    <Button android:text="3" android:id="@+id/buttonA3" android:layout_width="100px" android:layout_height="100px"></Button>
+    <Button android:text="4" android:id="@+id/buttonA4" android:layout_width="100px" android:layout_height="100px"></Button>
+</LinearLayout>
+<LinearLayout android:id="@+id/linearLayoutA3" android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_weight="1">
+    <TextView android:textColor="#000000" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_height="wrap_content" android:text="@string/A3" android:id="@+id/textViewA3" android:layout_width="260px"></TextView>
+    <Button android:text="5" android:id="@+id/buttonA5" android:layout_width="100px" android:layout_height="100px"></Button>
+    <Button android:text="6" android:id="@+id/buttonA6" android:layout_width="100px" android:layout_height="100px"></Button>
+</LinearLayout>
+<LinearLayout android:id="@+id/linearLayoutA4" android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_weight="1">
+    <TextView android:textColor="#000000" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_height="wrap_content" android:text="@string/A4" android:id="@+id/textViewA4" android:layout_width="260px"></TextView>
+    <Button android:text="7" android:id="@+id/buttonA7" android:layout_width="100px" android:layout_height="100px"></Button>
+    <Button android:text="8" android:id="@+id/buttonA8" android:layout_width="100px" android:layout_height="100px"></Button>
+</LinearLayout>
+<LinearLayout android:id="@+id/linearLayoutA5" android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_weight="1">
+    <TextView android:textColor="#000000" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_height="wrap_content" android:text="@string/A5" android:id="@+id/textViewA5" android:layout_width="260px"></TextView>
+    <Button android:text="9" android:id="@+id/buttonA9" android:layout_width="100px" android:layout_height="100px"></Button>
+    <Button android:text="10" android:id="@+id/buttonA10" android:layout_width="100px" android:layout_height="100px"></Button>
+</LinearLayout>
+<LinearLayout android:id="@+id/linearLayoutA6" android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_weight="1">
+    <TextView android:textColor="#000000" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_height="wrap_content" android:text="@string/A6" android:id="@+id/textViewA6" android:layout_width="260px"></TextView>
+    <Button android:text="11" android:id="@+id/buttonA11" android:layout_width="100px" android:layout_height="100px"></Button>
+    <Button android:text="12" android:id="@+id/buttonA12" android:layout_width="100px" android:layout_height="100px"></Button>
+</LinearLayout>
+</LinearLayout>

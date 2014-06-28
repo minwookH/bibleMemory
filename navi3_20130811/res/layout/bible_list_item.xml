@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:id="@+id/b_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        
+       <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/b_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:textSize="20dp"
+                android:gravity="left"
+                android:textColor="#c32E61">
+
+            </TextView>
+            
+            <TextView
+                android:id="@+id/b_address"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="3dp"
+                android:textSize="20dp" 
+                android:gravity="right"
+                android:textColor="#0054FF">
+
+            </TextView>
+            
+            <TextView
+                android:id="@+id/b_contents"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1" 
+                android:layout_marginTop="1dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:textSize="20dp"
+                android:textColor="#000000">
+
+            </TextView>
+            
+	    </LinearLayout>
+        
+    </LinearLayout>
+
+</LinearLayout>
